@@ -10,9 +10,9 @@ assignees: DragonBishop
 ### The Objective
 *Explain the rationale or context for the proposal, what needs to happen and, crucially, why it matters (the "So that..."). Omit the included syntax for technical matters.
 
-- **Because...**
-- **I Propose...** 
-- **So that...**
+- **Because:**
+- **I Propose:** 
+- **So That:**
 
 ---
 
@@ -20,11 +20,11 @@ assignees: DragonBishop
 *What defines this as "Done"? Use a simple checklist for infrastructure tasks, and delete what isn't needed.
 
 **Data Flow:**
-- **Given** [the starting state of the data or system]
-- **When** [the script or transformation runs]
-- **Then** [the exact output or side effect]
+- **Given**
+- **When**
+- **Then**
 
-**Infrastructure / Tech Checklist:**
+**Infrastructure Checklist:**
 - [ ] 
 - [ ] 
 
