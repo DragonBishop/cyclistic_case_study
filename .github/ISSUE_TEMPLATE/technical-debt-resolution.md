@@ -8,8 +8,8 @@ assignees: DragonBishop
 ---
 
 ### Technical Debt
-*Briefly describe the shortcut that was taken and why it is a problem.*
-- **Context:** *
+*Briefly describe the liability created, and what risk it creates for the project.*
+- **Context:** 
 - **Risk:** 
 ---
 
