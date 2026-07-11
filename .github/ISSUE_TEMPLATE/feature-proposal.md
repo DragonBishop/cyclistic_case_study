@@ -17,7 +17,9 @@ assignees: DragonBishop
 ---
 
 ### Acceptance Criteria
-*What defines this as "Done"? Use a simple checklist for infrastructure tasks, and delete what isn't needed.
+*What defines this as "Done"?* 
+Use the Data Flow syntax to define acceptance for complex tasks.
+For simple infrastructure tasks, simply provide a checklist and delete the data flow syntax.
 
 **Data Flow:**
 - **Given**
