@@ -8,7 +8,7 @@ assignees: DragonBishop
 ---
 
 ### The Objective
-*Explain the rationale or context for the proposal, what needs to happen and, crucially, why it matters (the "So that..."). Omit the included syntax for technical matters.
+*Explain the rationale or context for the proposal, what needs to happen, and why it matters:
 
 - **Because:**
 - **I Propose:** 
@@ -18,22 +18,16 @@ assignees: DragonBishop
 
 ### Acceptance Criteria
 *What defines this as "Done"?* 
-Use the Data Flow syntax to define acceptance for complex tasks.
-For simple infrastructure tasks, simply provide a checklist and delete the data flow syntax.
 
 **Data Flow:**
 - **Given**
 - **When**
 - **Then**
 
-**Infrastructure Checklist:**
-- [ ] 
-- [ ] 
-
 ---
 
 ### Technical Notes
-*Drop in any relevant file paths, scripts, or links to documentation needed for programming.*
+*Drop in any relevant file paths, scripts, links, sources, etc. needed or useful for development.*
 
 - **Files:**
 - **Notes:**
