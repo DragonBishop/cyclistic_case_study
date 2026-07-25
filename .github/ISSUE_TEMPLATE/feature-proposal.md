@@ -8,13 +8,14 @@ assignees: DragonBishop
 ---
 
 ### The Objective
-*Explain the rationale or context for the proposal, what needs to happen, and why it matters:
+*Explain the rationale or context for the proposal, what needs to happen, and why it matters:*
 
 - **Because:**
 - **I Propose:** 
 - **So That:**
 
 ---
+**For Maintainer Use — Not Required to Complete**
 
 ### Acceptance Criteria
 *What defines this as "Done"?* 
@@ -23,8 +24,6 @@ assignees: DragonBishop
 - **Given**
 - **When**
 - **Then**
-
----
 
 ### Technical Notes
 *Drop in any relevant file paths, scripts, links, sources, etc. needed or useful for development.*
