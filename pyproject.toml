@@ -1,6 +1,5 @@
 [project]
-name = "cyclistic-case-study"
-version = "1.0"
+name = "cyclistic_case_study"
 description = "The Cyclistic data analysis uses Python (dependencies below), PostgreSQL/PostGIS, and VS Code. A Zotero-managed bibliography file is included for managing citations."
 readme = "README.md"
 requires-python = ">=3.14"
@@ -16,3 +15,32 @@ dependencies = [
     "scipy>=1.18.0",
     "sqlalchemy>=2.0.51",
 ]
+version = "0.0.1"
+
+[dependency-groups]
+dev = [
+  "pytest>=8",
+  "pytest-cov>=7.0.0",
+  "nbwipers>=0.6.1",
+]
+
+[tool.coverage.report]
+exclude_also = [
+  "def __repr__",
+  "if self.debug:",
+  "if settings.DEBUG",
+  "raise AssertionError",
+  "raise NotImplementedError",
+  "if 0:",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+  'class .*\bProtocol\):',
+  '@(abc\.)?abstractmethod',
+]
+
+[tool.nbwipers]
+strip-kernel-info = true
+
+[tool.uv]
+default-groups = ["dev"]
+package = false
