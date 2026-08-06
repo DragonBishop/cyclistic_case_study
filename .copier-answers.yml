@@ -1,0 +1,8 @@
+# Changes here will be overwritten by Copier
+_commit: v1.0.4
+_src_path: /home/dragon-bishop/coding/projects/python-copier-template-ds
+github_actions: true
+include_module: false
+project_name: cyclistic_case_study
+project_type: data_analysis
+python_version: '3.14'
