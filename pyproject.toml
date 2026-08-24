@@ -7,12 +7,9 @@ dependencies = [
     "geopandas>=1.1.4",
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.0",
-    "matplotlib>=3.11.0",
-    "numpy>=2.5.0",
     "pandas>=3.0.3",
     "plotly>=6.8.0",
     "psycopg[binary]>=3.3.4",
-    "scipy>=1.18.0",
     "sqlalchemy>=2.0.51",
 ]
 version = "0.0.1"
@@ -22,6 +19,9 @@ dev = [
   "pytest>=8",
   "pytest-cov>=7.0.0",
   "nbwipers>=0.6.1",
+]
+lint = [
+  "ruff>=0.13.0",
 ]
 
 [tool.coverage.report]

@@ -1,5 +1,9 @@
 [Uu]ntitled*
 scratch*
+
+# Copier answers (managed separately, not part of this project)
+.copier-answers.yml
+
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
