@@ -1,3 +1,12 @@
+# Changelog
+
+## [1.1.1](https://github.com/DragonBishop/cyclistic_case_study/compare/v1.1.0...v1.1.1) (2026-08-31)
+
+
+### Documentation
+
+* regenerate changelog for v1.1.0 ([5ffd75b](https://github.com/DragonBishop/cyclistic_case_study/commit/5ffd75bea8b907815130241c444f470e51b95f56))
+
 ## [1.1.0] - 2026-08-31
 
 ### Test
