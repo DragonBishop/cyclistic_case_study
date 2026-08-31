@@ -16,12 +16,13 @@ version = "0.0.1"
 
 [dependency-groups]
 dev = [
-  "pytest>=8",
-  "pytest-cov>=7.0.0",
-  "nbwipers>=0.6.1",
+  "pytest>=9.1.1",
+  "pytest-cov>=7.1.0",
+  "nbwipers>=0.7.1",
+  "prek>=0.5.0",
 ]
 lint = [
-  "ruff>=0.13.0",
+  "ruff>=0.16.5",
 ]
 
 [tool.coverage.report]
@@ -40,6 +41,13 @@ exclude_also = [
 
 [tool.nbwipers]
 strip-kernel-info = true
+
+[tool.rumdl]
+disable = ["MD013"]
+exclude = ["CHANGELOG.md"]
+
+[tool.rumdl.MD024]
+siblings-only = true
 
 [tool.uv]
 default-groups = ["dev"]

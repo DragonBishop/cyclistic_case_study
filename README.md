@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Directory Structure](#directory-structure)
-- [Environment Setup](#environment-setup)
-- [Usage](#usage)
-- [Methodology](#methodology)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+* [Project Overview](#project-overview)
+* [Data Sources](#data-sources)
+* [Directory Structure](#directory-structure)
+* [Environment Setup](#environment-setup)
+* [Usage](#usage)
+* [Methodology](#methodology)
+* [Results](#results)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## Project Overview
 
