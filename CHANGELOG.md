@@ -1,12 +1,13 @@
-# Changelog
+## [1.1.1] - 2026-08-31
 
-## [1.1.1](https://github.com/DragonBishop/cyclistic_case_study/compare/v1.1.0...v1.1.1) (2026-08-31)
+### ⚙️ Miscellaneous Tasks
 
+- Use dedicated PAT for release-please instead of repo Actions permission
+- *(main)* Release 1.1.1
 
-### Documentation
+### 📚 Documentation
 
-* regenerate changelog for v1.1.0 ([5ffd75b](https://github.com/DragonBishop/cyclistic_case_study/commit/5ffd75bea8b907815130241c444f470e51b95f56))
-
+- Regenerate changelog for v1.1.0
 ## [1.1.0] - 2026-08-31
 
 ### Test
