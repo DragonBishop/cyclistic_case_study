@@ -2,19 +2,20 @@
 
 # Prompt user for password using getpass module, and use typical defaults to construct engine URL
 # Defaults are listed here, but you can modify them to your purposes.
+import getpass
+
+import geopandas as gpd
 import sqlalchemy as sql
 from sqlalchemy import URL
-import getpass
-import geopandas as gpd
 
 address = URL.create(
     drivername="postgresql+psycopg",
     username="postgres",
     password=getpass.getpass("Password: "),
     host="localhost",
-    port = 5432,
+    port=5432,
     database="postgres",
-    )
+)
 
 # Use constructed url to create sql engine to query database
 engine = sql.create_engine(address)
@@ -24,10 +25,10 @@ query = "SELECT * FROM gda_capstone_a_raw.may2025_may2026_cleaned"
 
 ## Assemble geodataframe using defined query and engine
 capstone_data_raw = gpd.read_postgis(
-     sql=query,
-     con=engine,
-# NOTE: Geopandas can only have one active geometry column at a time.
-# Easiest way to compare start and end trips is to switch between them below.
+    sql=query,
+    con=engine,
+    # NOTE: Geopandas can only have one active geometry column at a time.
+    # Easiest way to compare start and end trips is to switch between them below.
     geom_col="start_coordinates",
 )
 # NOTE: Change the column specified here to the opposite of the one above.
