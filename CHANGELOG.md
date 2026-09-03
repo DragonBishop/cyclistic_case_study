@@ -1,44 +1,41 @@
+## [1.2.0] - 2026-09-03
+
+### 🚀 Features
+
+- Implement PostGISConnector for database queries and update version to 1.1.1
+
+### 📚 Documentation
+
+- Regenerate changelog for v1.1.1
+
+### ♻️ Refactor
+
+- Streamline data analysis functions and improve code readability
+
+### ⚙️ Miscellaneous Tasks
+
+- *(main)* Release 1.2.0
 ## [1.1.1] - 2026-08-31
+
+### 📚 Documentation
+
+- Regenerate changelog for v1.1.0
 
 ### ⚙️ Miscellaneous Tasks
 
 - Use dedicated PAT for release-please instead of repo Actions permission
 - *(main)* Release 1.1.1
-
-### 📚 Documentation
-
-- Regenerate changelog for v1.1.0
-## [1.2.0](https://github.com/DragonBishop/cyclistic_case_study/compare/v1.1.1...v1.2.0) (2026-09-03)
-
-
-### Features
-
-* implement PostGISConnector for database queries and update version to 1.1.1 ([33670ce](https://github.com/DragonBishop/cyclistic_case_study/commit/33670ce7ebc583ba22fb3baf9da274f1853bad83))
-
-
-### Documentation
-
-* regenerate changelog for v1.1.1 ([2f877c5](https://github.com/DragonBishop/cyclistic_case_study/commit/2f877c535be0f4dd5fdda9bf9ef813cdc8c05829))
-
 ## [1.1.0] - 2026-08-31
 
-### Test
+### 🚀 Features
 
-- Add test suite scaffolding
-
-### ♻️ Refactor
-
-- Reorganize src/ into data and visualization
-
-### ⚙️ Miscellaneous Tasks
-
-- Initial project scaffolding
-- Normalize line endings and migrate dependency management to uv
-- Adopt copier project template scaffolding
-- Add GitHub Actions workflow
-- Migrate issue templates to GitHub form schema
-- Drop requirements.txt, uv now manages dependencies
-- *(main)* Release 1.1.0
+- Add raw data ingestion scripts
+- Add duplicate detection and removal scripts
+- Add null and missing-value handling scripts
+- Add final cleaned ride-data table scripts
+- Add Python SQL query engine
+- Add Cyclistic ride data analysis notebook
+- Sync CI and tooling from python-copier-template-ds v1.4.0
 
 ### 🐛 Bug Fixes
 
@@ -56,12 +53,20 @@
 - Standardize issue template labels and field ownership
 - Update README and report for new project structure
 
-### 🚀 Features
+### ♻️ Refactor
 
-- Add raw data ingestion scripts
-- Add duplicate detection and removal scripts
-- Add null and missing-value handling scripts
-- Add final cleaned ride-data table scripts
-- Add Python SQL query engine
-- Add Cyclistic ride data analysis notebook
-- Sync CI and tooling from python-copier-template-ds v1.4.0
+- Reorganize src/ into data and visualization
+
+### ⚙️ Miscellaneous Tasks
+
+- Initial project scaffolding
+- Normalize line endings and migrate dependency management to uv
+- Adopt copier project template scaffolding
+- Add GitHub Actions workflow
+- Migrate issue templates to GitHub form schema
+- Drop requirements.txt, uv now manages dependencies
+- *(main)* Release 1.1.0
+
+### Test
+
+- Add test suite scaffolding
