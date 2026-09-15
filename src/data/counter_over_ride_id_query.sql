@@ -1,5 +1,3 @@
--- Thanks to https://stackoverflow.com/questions/6218902/the-sql-over-clause-when-and-why-is-it-useful for help with
--- COUNT OVER(PARTION BY) as a way to filter the results.
 SELECT *
 FROM (
 	SELECT *,

@@ -1,5 +1,5 @@
 /*Turning empty strings into nulls to make managing data easier.
- * This failed because * does not work as a wildcard for these functions.
+ * Column names must be listed explicitly, since * does not work as a wildcard for NULLIF.
  * Updated Rows: 5848703, 1m 34s run time*/
 UPDATE 
 	gda_capstone_a_raw.may_2025_to_may_2026

@@ -1,6 +1,5 @@
-/*Attempting to map the number of times starting latitudes and starting station names align with each other.
- * Strong correlations may allow restoration of missing records.
- */
+/* Attempting to map the number of times starting latitudes and starting station names align with each other.
+   Strong correlations may allow restoration of missing records. */
 SELECT 
 	start_lat,
 	start_station_name,

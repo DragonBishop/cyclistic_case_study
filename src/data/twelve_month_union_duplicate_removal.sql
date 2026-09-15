@@ -13,8 +13,7 @@ CREATE TABLE may_2025_to_may_2026
 	end_station_id varchar(100),
 	end_lat varchar(100), 
 	end_lng varchar(100));
--- Changing the order of the columns under the create table command, but keeping them the same here, seems to allow for reorganization of data!
--- Fun find!
+-- Named column lists let this INSERT reorder columns independently of the CREATE TABLE definition; PostgreSQL maps values by name.
 INSERT INTO may_2025_to_may_2026
 	(
 	ride_id,
