@@ -1,3 +1,30 @@
+## [1.2.1] - 2026-09-15
+
+### ♻️ Refactor
+
+- Consolidate neighborhood data loading and processing into a single cell
+- Remove obsolete SQL files and improve null handling in queries
+- Encapsulate neighborhood ride count logic into dedicated functions
+- Update PGISConnector to be more generic, refactor aggregation functions into separate script aggregation.py
+
+## [1.2.0] - 2026-09-03
+
+### 🚀 Features
+
+- Implement PostGISConnector for database queries and update version to 1.1.1
+
+### 📚 Documentation
+
+- Regenerate changelog for v1.1.1
+
+### ♻️ Refactor
+
+- Streamline data analysis functions and improve code readability
+
+### ⚙️ Miscellaneous Tasks
+
+- *(main)* Release 1.2.0
+
 ## [1.1.1] - 2026-08-31
 
 ### ⚙️ Miscellaneous Tasks
@@ -8,17 +35,6 @@
 ### 📚 Documentation
 
 - Regenerate changelog for v1.1.0
-## [1.2.0](https://github.com/DragonBishop/cyclistic_case_study/compare/v1.1.1...v1.2.0) (2026-09-15)
-
-
-### Features
-
-* implement PostGISConnector for database queries and update version to 1.1.1 ([33670ce](https://github.com/DragonBishop/cyclistic_case_study/commit/33670ce7ebc583ba22fb3baf9da274f1853bad83))
-
-
-### Documentation
-
-* regenerate changelog for v1.1.1 ([2f877c5](https://github.com/DragonBishop/cyclistic_case_study/commit/2f877c535be0f4dd5fdda9bf9ef813cdc8c05829))
 
 ## [1.1.0] - 2026-08-31
 
