@@ -9,6 +9,7 @@ dependencies = [
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.0",
     "mapclassify>=2.11.0",
+    "matplotlib>=3.11.2",
     "pandas>=3.0.3",
     "pgiscluster>=0.2.0",
     "plotly>=6.8.0",
