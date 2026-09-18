@@ -2,12 +2,15 @@
 name = "cyclistic_case_study"
 description = "The Cyclistic data analysis uses Python (dependencies below), PostgreSQL/PostGIS, and VS Code. A Zotero-managed bibliography file is included for managing citations."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.14.7"
 dependencies = [
+    "folium>=0.20.0",
     "geopandas>=1.1.4",
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.0",
+    "mapclassify>=2.11.0",
     "pandas>=3.0.3",
+    "pgiscluster>=0.2.0",
     "plotly>=6.8.0",
     "psycopg[binary]>=3.3.4",
     "sqlalchemy>=2.0.51",
