@@ -7,6 +7,19 @@
 - Encapsulate neighborhood ride count logic into dedicated functions
 - Update PGISConnector to be more generic, refactor aggregation functions into separate script aggregation.py
 
+## [1.3.0](https://github.com/DragonBishop/cyclistic_case_study/compare/v1.2.1...v1.3.0) (2026-09-18)
+
+
+### Features
+
+* integrate database connectivity for ride data analysis ([4ac9963](https://github.com/DragonBishop/cyclistic_case_study/commit/4ac99634f59c5c7c90701c07228d4c572684d716))
+
+
+### Bug Fixes
+
+* add missing matplotlib dependency to project requirements ([ecc9298](https://github.com/DragonBishop/cyclistic_case_study/commit/ecc9298692b17ea700f80ff3076b6f4ad1ec471e))
+* update release workflow to use GitHub app token for authentication ([1bcb30b](https://github.com/DragonBishop/cyclistic_case_study/commit/1bcb30be61de469f51fb65b3d890615e0e8e2341))
+
 ## [1.2.0] - 2026-09-03
 
 ### 🚀 Features
