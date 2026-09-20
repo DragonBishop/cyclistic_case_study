@@ -3,6 +3,13 @@ name = "cyclistic_case_study"
 description = "The Cyclistic data analysis uses Python (dependencies below), PostgreSQL/PostGIS, and VS Code. A Zotero-managed bibliography file is included for managing citations."
 readme = "README.md"
 requires-python = ">=3.14.7"
+authors = [{ name = "DragonBishop", email = "276789280+DragonBishop@users.noreply.github.com" }]
+license = "MIT"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.14",
+]
 dependencies = [
     "folium>=0.20.0",
     "geopandas>=1.1.4",
