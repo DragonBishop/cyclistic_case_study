@@ -1,3 +1,18 @@
+## [1.4.0] - 2026-10-19
+
+### 🚀 Features
+
+- Add .copier-answers.yml for project configuration and remove from .gitignore
+
+### ♻️ Refactor
+
+- Move src/ into the cyclistic_case_study package
+
+### ⚙️ Miscellaneous Tasks
+
+- Sync repo with copier template v1.6.0
+- Update release configuration and versioning by bumping to copier template v1.7.0
+- Update project configuration and workflows for improved CI/CD processes, updating to python-copier-template-ds v.2.0.0
 ## [1.3.0] - 2026-09-18
 
 ### 🚀 Features
@@ -12,16 +27,11 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Update Python version requirement to 3.14.7 and adjust dependencies
-- *(main)* Release 1.3.0
 ## [1.2.1] - 2026-09-15
 
 ### 🚀 Features
 
 - Implement PostGISConnector for database queries and update version to 1.1.1
-
-### 📚 Documentation
-
-- Regenerate changelog for v1.1.1
 
 ### ♻️ Refactor
 
@@ -33,18 +43,12 @@
 
 ### ⚙️ Miscellaneous Tasks
 
-- *(main)* Release 1.2.0
 - Bump version to 1.2.1 and update changelog
 ## [1.1.1] - 2026-08-31
-
-### 📚 Documentation
-
-- Regenerate changelog for v1.1.0
 
 ### ⚙️ Miscellaneous Tasks
 
 - Use dedicated PAT for release-please instead of repo Actions permission
-- *(main)* Release 1.1.1
 ## [1.1.0] - 2026-08-31
 
 ### 🚀 Features
@@ -77,6 +81,10 @@
 
 - Reorganize src/ into data and visualization
 
+### 🧪 Testing
+
+- Add test suite scaffolding
+
 ### ⚙️ Miscellaneous Tasks
 
 - Initial project scaffolding
@@ -85,8 +93,3 @@
 - Add GitHub Actions workflow
 - Migrate issue templates to GitHub form schema
 - Drop requirements.txt, uv now manages dependencies
-- *(main)* Release 1.1.0
-
-### Test
-
-- Add test suite scaffolding
