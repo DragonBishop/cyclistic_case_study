@@ -3,5 +3,5 @@
  */
 SELECT ride_id, count(ride_id)
 FROM gda_capstone_a_raw.may_2025_to_may_2026 may_to_may
-GROUP BY ride_id 
+GROUP BY ride_id
 HAVING COUNT(*) >1

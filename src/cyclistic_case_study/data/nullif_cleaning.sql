@@ -1,9 +1,9 @@
 /*Turning empty strings into nulls to make managing data easier.
  * Column names must be listed explicitly, since * does not work as a wildcard for NULLIF.
  * Updated Rows: 5848703, 1m 34s run time*/
-UPDATE 
+UPDATE
 	gda_capstone_a_raw.may_2025_to_may_2026
-SET 
+SET
 	ride_id = NULLIF(ride_id, ''),
 	rideable_type = NULLIF(rideable_type, ''),
 	member_casual = NULLIF(member_casual, ''),

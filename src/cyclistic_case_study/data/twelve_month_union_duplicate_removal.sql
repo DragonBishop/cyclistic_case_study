@@ -11,13 +11,13 @@ CREATE TABLE may_2025_to_may_2026
 	start_lng varchar(100),
 	end_station_name varchar(100),
 	end_station_id varchar(100),
-	end_lat varchar(100), 
+	end_lat varchar(100),
 	end_lng varchar(100));
 -- Named column lists let this INSERT reorder columns independently of the CREATE TABLE definition; PostgreSQL maps values by name.
 INSERT INTO may_2025_to_may_2026
 	(
 	ride_id,
-	rideable_type, 
+	rideable_type,
 	started_at,
 	ended_at,
 	start_station_name,
@@ -40,7 +40,7 @@ FROM (
 	SELECT 	* FROM gda_capstone_a_raw."202508_divvy_tripdata" aug_2025
 	UNION ALL
 	SELECT 	* FROM gda_capstone_a_raw."202509_divvy_tripdata" sept_2025
-	UNION ALL 
+	UNION ALL
 	SELECT 	* FROM 	gda_capstone_a_raw."202510_divvy_tripdata" oct_2025
 	UNION ALL
 	SELECT 	* FROM  gda_capstone_a_raw."202511_divvy_tripdata" nov_2025

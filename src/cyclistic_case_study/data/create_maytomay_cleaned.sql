@@ -2,7 +2,7 @@
    with start and end locations as labeled GIS coordinates (crs=EPSG:4326), where all null values are removed.
    Ride duration outliers, including rides under one minute, are trimmed later in the analysis notebook. */
 CREATE TABLE gda_capstone_a_raw.may2025_may2026_cleaned AS
-SELECT 
+SELECT
 	ride_id,
 	member_casual member_type,
 	rideable_type bike_type,
@@ -21,13 +21,13 @@ SELECT
 			end_lng::NUMERIC, end_lat::NUMERIC
 			), 4326
 		)::geography AS end_coordinates
-FROM 
+FROM
 	gda_capstone_a_raw.may_2025_to_may_2026 maytomay
-WHERE 
+WHERE
 	ride_id IS NOT NULL
 	AND member_casual IS NOT NULL
-	AND rideable_type IS NOT NULL 
-	AND started_at IS NOT NULL 
+	AND rideable_type IS NOT NULL
+	AND started_at IS NOT NULL
 	AND ended_at IS NOT NULL
 	AND start_station_name IS NOT NULL
 	AND start_lat IS NOT NULL
