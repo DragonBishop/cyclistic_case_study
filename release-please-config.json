@@ -1,12 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-  "release-type": "simple",
+  "release-type": "python",
   "include-component-in-tag": false,
   "skip-changelog": true,
-  "extra-files": [
-    { "type": "toml", "path": "pyproject.toml", "jsonpath": "$.project.version" },
-    { "type": "toml", "path": "uv.lock", "jsonpath": "$.package[?(@.source && @.source.virtual && @.source.virtual.value=='.')].version" }
-  ],
+  "extra-files": ["src/cyclistic_case_study/__init__.py"],
   "packages": {
     ".": {}
   }

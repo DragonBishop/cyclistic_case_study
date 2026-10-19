@@ -13,7 +13,7 @@ setup: install git-setup
 
 # run test coverage and create
 test-cov:
-  uv run pytest
+  uv run pytest --cov=src/cyclistic_case_study --cov-report=lcov:lcov.info --cov-report=term-missing --cov-report html --cov-report xml
 
 # update packages and uv lock file
 update:
@@ -21,6 +21,6 @@ update:
 
 # set up git filters (nbwipers) and pre-commit hooks
 git-setup:
-  @[ -d .git ] || git init
+  @[ -d .git ] || git init -b main
   uv run nbwipers install local
   uv run prek install

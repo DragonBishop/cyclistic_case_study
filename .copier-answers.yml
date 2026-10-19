@@ -1,11 +1,16 @@
 # Changes here will be overwritten by Copier
-_commit: v1.7.0
+_commit: v2.0.0
 _src_path: gh:DragonBishop/python-copier-template-ds
-github_actions: true
-include_module: false
-include_notebooks: true
-include_reports: true
-project_name: cyclistic_case_study
-project_type: data_analysis
+project_name: Cyclistic Case Study
 python_version: 3.14.7
-use_rumdl: true
+structure:
+- data
+- visualization
+- notebooks
+- reports
+tooling:
+- github_actions
+- releases
+- rumdl
+- renovate
+- semgrep
