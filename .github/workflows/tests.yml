@@ -45,7 +45,7 @@ jobs:
           uv run pytest --cov=src/cyclistic_case_study --cov-report=term-missing:skip-covered --junitxml=pytest.xml \
           | tee pytest-coverage.txt
       - name: Pytest coverage comment
-        uses: MishaKav/pytest-coverage-comment@9ee59af31bd7bcada1cc496f086b407122602dbd # v1.12.3
+        uses: MishaKav/pytest-coverage-comment@93af7d8b7260ffe62dd0eb35bebd01c544f204e9 # v1.12.5
         continue-on-error: true
         with:
           pytest-coverage-path: ./pytest-coverage.txt
