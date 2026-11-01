@@ -13,7 +13,7 @@ classifiers = [
 dependencies = [
     "folium>=0.20.0",
     "geopandas>=1.1.4",
-    "ipykernel>=7.3.0",
+    "ipykernel>=7.4.0",
     "jupyterlab>=4.6.0",
     "mapclassify>=2.11.0",
     "matplotlib>=3.11.2",
@@ -29,11 +29,11 @@ dynamic = ["version"]
 dev = [
   "pytest>=9.1.1",
   "pytest-cov>=7.1.0",
-  "nbwipers>=0.7.1",
-  "prek>=0.5.0",
+  "nbwipers>=0.7.2",
+  "prek>=0.5.7",
 ]
 lint = [
-  "ruff>=0.16.5",
+  "ruff>=0.17.2",
 ]
 
 [build-system]
